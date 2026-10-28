@@ -18,7 +18,8 @@ design, backend and release.
 
 <p align="center">
   <sub><b>Company profile:</b> <a href="https://arvion-technology.github.io/labs/assets/arvion-company-profile.pdf">PDF</a> ·
-  <a href="https://arvion-technology.github.io/labs/company.html">services and case studies</a> ·
+  <a href="https://arvion-technology.github.io/labs/work.html">work and case studies</a> ·
+  <a href="https://arvion-technology.github.io/labs/company.html">services</a> ·
   <a href="https://arvion-technology.github.io/labs/brand.html">brand kit</a></sub>
 </p>
 
@@ -47,6 +48,29 @@ design, backend and release.
 <td><b><a href="https://hamrosajhabazaar.com">Hamro Sajha Bazaar</a></b> — national multi-category marketplace: secondhand goods, vehicles, jobs, rentals, medical, trades, food. Seller verification, escrow, buyer protection, Nepali/English UI.</td>
 </tr>
 </table>
+
+## Case studies
+
+Written up with the problem, the build, the architecture and the decisions behind it.
+
+**In production**
+
+| Work | What it covers | Case study |
+| --- | --- | --- |
+| GharKo Sathi — home services | KYC-verified professionals, escrow payments, dispute resolution, customer and partner apps, operations console | [read](https://arvion-technology.github.io/labs/case-gharkosathi.html) |
+| Hamro Sajha Bazaar — marketplace | Nine categories, seller verification, escrow and buyer protection, bilingual UI, eSewa/Khalti checkout | [read](https://arvion-technology.github.io/labs/case-bazaar.html) |
+| Mero Bazaar — production codebase | Public marketplace platform: 43 controllers, 70 backend spec files, 58 migrations, 112 front-end pages | [read](https://arvion-technology.github.io/labs/case-merobazaar.html) |
+
+**Product samples**
+
+| Sample | What it covers | Case study |
+| --- | --- | --- |
+| Pulse — analytics | Ordered funnels, weekly retention cohorts, live events over a seeded 120k-event dataset | [read](https://arvion-technology.github.io/labs/case-pulse.html) |
+| Bazaar Store — commerce | Cart pricing and promos, stock reservation, payment adapters, order state machine | [read](https://arvion-technology.github.io/labs/case-storefront.html) |
+| Relay — AI support | Cited answers, tool calls, confidence threshold, human hand-off, evaluation harness | [read](https://arvion-technology.github.io/labs/case-relay.html) |
+| Notewise — documents | Block tree, slash commands, nesting, coalesced undo, Markdown round-trip | [read](https://arvion-technology.github.io/labs/case-notewise.html) |
+
+[All work and case studies →](https://arvion-technology.github.io/labs/work.html)
 
 ## Open-source labs
 
