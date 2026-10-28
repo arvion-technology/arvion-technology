@@ -12,7 +12,7 @@ design, backend and release.
 
 [![Website](https://img.shields.io/badge/arviontech.net-0b0f1a?style=for-the-badge&logo=googlechrome&logoColor=f5c26b)](https://arviontech.net)
 [![Email](https://img.shields.io/badge/hello@arviontech.net-0b0f1a?style=for-the-badge&logo=maildotru&logoColor=f5c26b)](mailto:hello@arviontech.net)
-[![Labs](https://img.shields.io/badge/30_open--source_projects-0b0f1a?style=for-the-badge&logo=github&logoColor=f5c26b)](https://arvion-technology.github.io/labs/)
+[![Labs](https://img.shields.io/badge/32_open--source_projects-0b0f1a?style=for-the-badge&logo=github&logoColor=f5c26b)](https://arvion-technology.github.io/labs/)
 
 </div>
 
@@ -44,7 +44,7 @@ design, backend and release.
 
 ## Open-source labs
 
-Runnable projects, each with tests, a live demo and an honest README. They are how we
+Thirty-two runnable projects, each with tests, a live demo and an honest README. They are how we
 work when nobody is watching. Every demo is static and runs in your browser — no
 sign-up, no API key. Full gallery: **[arvion-technology.github.io/labs](https://arvion-technology.github.io/labs/)**
 
@@ -56,8 +56,8 @@ sign-up, no API key. Full gallery: **[arvion-technology.github.io/labs](https://
 <td width="50%"><a href="https://arvion-technology.github.io/labs/demos/invoiceflow/demo/"><img src="assets/demo-invoiceflow.gif" alt="InvoiceFlow invoicing" width="100%" /></a><br /><sub><b>InvoiceFlow</b> — invoicing with integer money math and tax rules</sub></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://arvion-technology.github.io/labs/demos/queuekit/demo/"><img src="assets/demo-queuekit.gif" alt="QueueKit job queue" width="100%" /></a><br /><sub><b>QueueKit</b> — durable jobs, retries, dead-letter queue</sub></td>
-<td width="50%"><a href="https://arvion-technology.github.io/labs/demos/design-system/demo/"><img src="assets/demo-design-system.gif" alt="Arvion UI design system" width="100%" /></a><br /><sub><b>Arvion UI</b> — design tokens, components, contrast audit</sub></td>
+<td width="50%"><a href="https://arvion-technology.github.io/labs/demos/slotwise/demo/"><img src="assets/demo-slotwise.gif" alt="Slotwise booking engine" width="100%" /></a><br /><sub><b>Slotwise</b> — timezone-correct booking and scheduling</sub></td>
+<td width="50%"><a href="https://arvion-technology.github.io/labs/demos/ragforge/demo/"><img src="assets/demo-ragforge.gif" alt="RAGForge retrieval kit" width="100%" /></a><br /><sub><b>RAGForge</b> — retrieval with citations and an eval harness</sub></td>
 </tr>
 </table>
 
@@ -71,6 +71,11 @@ sign-up, no API key. Full gallery: **[arvion-technology.github.io/labs](https://
 - **[PeopleOps](https://github.com/arvion-technology/peopleops)** — onboarding checklists, leave accrual and approvals · [demo](https://arvion-technology.github.io/labs/demos/peopleops/demo/)
 - **[EventPass](https://github.com/arvion-technology/eventpass)** — ticketing with a QR encoder written from scratch · [demo](https://arvion-technology.github.io/labs/demos/eventpass/demo/)
 - **[SchoolKit](https://github.com/arvion-technology/schoolkit)** — attendance, fee ledger, exams and report cards · [demo](https://arvion-technology.github.io/labs/demos/schoolkit/demo/)
+
+### Productivity and collaboration
+
+- **[Notewise](https://github.com/arvion-technology/notewise)** — block editor with slash commands, nesting and Markdown round-trip · [demo](https://arvion-technology.github.io/labs/demos/notewise/demo/)
+- **[Canvas](https://github.com/arvion-technology/whiteboard)** — infinite whiteboard with connectors, live cursors and PNG/SVG export · [demo](https://arvion-technology.github.io/labs/demos/whiteboard/demo/)
 
 ### AI and data
 
