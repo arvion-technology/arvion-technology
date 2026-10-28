@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Arvion Technologies — product engineering studio, Kathmandu" width="100%" />
+<img src="assets/banner.gif" alt="Arvion Technologies — product engineering studio, Kathmandu" width="100%" />
 
 # Arvion Technologies
 
@@ -31,19 +31,35 @@ design, backend and release.
 
 ## Products we run
 
-**[GharKo Sathi](https://gharkosewa.com)** — on-demand home services in Nepal.
-KYC-verified professionals, escrow payments, dispute resolution, separate customer
-and partner apps. Flutter clients, React web, NestJS API, eSewa/Khalti payouts.
-
-**[Hamro Sajha Bazaar](https://hamrosajhabazaar.com)** — national multi-category
-marketplace: secondhand goods, vehicles, jobs, rentals, medical, trades, food.
-Seller verification, escrow, buyer protection, Nepali/English UI.
+<table>
+<tr>
+<td width="50%"><a href="https://gharkosewa.com"><img src="assets/gharkosewa.png" alt="GharKo Sathi" width="100%" /></a></td>
+<td width="50%"><a href="https://hamrosajhabazaar.com"><img src="assets/hamro.png" alt="Hamro Sajha Bazaar" width="100%" /></a></td>
+</tr>
+<tr>
+<td><b><a href="https://gharkosewa.com">GharKo Sathi</a></b> — on-demand home services in Nepal. KYC-verified professionals, escrow payments, dispute resolution, separate customer and partner apps. Flutter clients, React web, NestJS API, eSewa/Khalti payouts.</td>
+<td><b><a href="https://hamrosajhabazaar.com">Hamro Sajha Bazaar</a></b> — national multi-category marketplace: secondhand goods, vehicles, jobs, rentals, medical, trades, food. Seller verification, escrow, buyer protection, Nepali/English UI.</td>
+</tr>
+</table>
 
 ## Open-source labs
 
 Runnable projects, each with tests, a live demo and an honest README. They are how we
 work when nobody is watching. Every demo is static and runs in your browser — no
 sign-up, no API key. Full gallery: **[arvion-technology.github.io/labs](https://arvion-technology.github.io/labs/)**
+
+### Demos in motion
+
+<table>
+<tr>
+<td width="50%"><a href="https://arvion-technology.github.io/labs/demos/pulse/demo/"><img src="assets/demo-pulse.gif" alt="Pulse product analytics" width="100%" /></a><br /><sub><b>Pulse</b> — product analytics: funnels, cohorts, live events</sub></td>
+<td width="50%"><a href="https://arvion-technology.github.io/labs/demos/invoiceflow/demo/"><img src="assets/demo-invoiceflow.gif" alt="InvoiceFlow invoicing" width="100%" /></a><br /><sub><b>InvoiceFlow</b> — invoicing with integer money math and tax rules</sub></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://arvion-technology.github.io/labs/demos/queuekit/demo/"><img src="assets/demo-queuekit.gif" alt="QueueKit job queue" width="100%" /></a><br /><sub><b>QueueKit</b> — durable jobs, retries, dead-letter queue</sub></td>
+<td width="50%"><a href="https://arvion-technology.github.io/labs/demos/design-system/demo/"><img src="assets/demo-design-system.gif" alt="Arvion UI design system" width="100%" /></a><br /><sub><b>Arvion UI</b> — design tokens, components, contrast audit</sub></td>
+</tr>
+</table>
 
 ### Product and SaaS
 

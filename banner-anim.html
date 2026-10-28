@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Arvion Technologies — animated banner</title>
+<style>
+  @font-face { font-family: "Inter"; src: url("assets/fonts/Inter-400_700.woff2") format("woff2"); font-weight: 400 700; }
+  @font-face { font-family: "Poppins"; src: url("assets/fonts/Poppins-500.woff2") format("woff2"); font-weight: 500; }
+  @font-face { font-family: "Poppins"; src: url("assets/fonts/Poppins-600.woff2") format("woff2"); font-weight: 600; }
+  @font-face { font-family: "Poppins"; src: url("assets/fonts/Poppins-700.woff2") format("woff2"); font-weight: 700; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1400px; height: 368px; overflow: hidden; background: #0b0f1a; }
+  body { position: relative; color: #fff; font-family: "Inter", sans-serif; display: flex; align-items: center; padding: 0 52px; }
+
+  .glow { position: absolute; inset: -40%; }
+  .glow::before, .glow::after {
+    content: ""; position: absolute; border-radius: 50%; filter: blur(40px); opacity: .55;
+  }
+  .glow::before {
+    width: 720px; height: 520px; left: -6%; top: -20%;
+    background: radial-gradient(circle, rgba(245,194,107,.38), transparent 65%);
+    animation: drift-a 8s ease-in-out infinite alternate;
+  }
+  .glow::after {
+    width: 820px; height: 560px; right: -8%; top: -30%;
+    background: radial-gradient(circle, rgba(58,123,255,.42), transparent 66%);
+    animation: drift-b 8s ease-in-out infinite alternate;
+  }
+  @keyframes drift-a { from { transform: translate(-30px, 10px) scale(1); } to { transform: translate(60px, -30px) scale(1.12); } }
+  @keyframes drift-b { from { transform: translate(20px, -10px) scale(1.05); } to { transform: translate(-50px, 30px) scale(.95); } }
+
+  .grid {
+    position: absolute; inset: 0; opacity: .45;
+    background-image: linear-gradient(to right, rgba(255,255,255,.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255,255,255,.05) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(900px 420px at 32% 45%, #000 20%, transparent 82%);
+    animation: grid-fade 8s ease-in-out infinite alternate;
+  }
+  @keyframes grid-fade { from { opacity: .28; } to { opacity: .55; } }
+
+  .content { position: relative; z-index: 1; display: flex; align-items: center; gap: 38px; width: 100%; }
+
+  .mark-wrap { position: relative; width: 120px; height: 120px; flex: none; display: grid; place-items: center; }
+  .mark-wrap::before {
+    content: ""; position: absolute; inset: 0; border-radius: 34px;
+    border: 1px solid rgba(245,194,107,.5);
+    background: linear-gradient(150deg, rgba(29,39,66,.9), rgba(12,17,32,.95));
+    box-shadow: 0 0 0 1px rgba(0,0,0,.6) inset, 0 30px 60px -30px rgba(245,194,107,.55);
+    animation: tile 4s ease-in-out infinite;
+  }
+  @keyframes tile { 0%,100% { box-shadow: 0 0 0 1px rgba(0,0,0,.6) inset, 0 24px 50px -30px rgba(245,194,107,.35); } 50% { box-shadow: 0 0 0 1px rgba(0,0,0,.6) inset, 0 30px 70px -28px rgba(245,194,107,.75); } }
+  .mark-wrap img { position: relative; width: 76px; height: 56px; animation: mark 4s ease-in-out infinite; }
+  @keyframes mark { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+  .ring {
+    position: absolute; inset: -12px; border-radius: 44px; border: 1px solid rgba(245,194,107,.22);
+    animation: ring 4s ease-in-out infinite;
+  }
+  @keyframes ring { 0%,100% { transform: scale(.97); opacity: .5; } 50% { transform: scale(1.03); opacity: .95; } }
+
+  .words { min-width: 0; }
+  .wordmark {
+    display: flex; align-items: baseline; gap: 14px;
+    font-family: "Poppins"; font-weight: 700; letter-spacing: .42em; font-size: 15px; color: #f5c26b;
+    text-transform: uppercase;
+  }
+  .wordmark span { color: #8d98ab; letter-spacing: .34em; font-weight: 500; font-size: 12px; }
+  h1 {
+    font-family: "Poppins"; font-weight: 700; font-size: 50px; letter-spacing: -0.035em; line-height: 1.05;
+    margin: 12px 0 12px;
+  }
+  h1 .line { display: block; }
+  h1 .line > span { display: inline-block; }
+  h1 em {
+    font-style: normal;
+    background: linear-gradient(100deg, #f5c26b 0%, #ffe6b5 30%, #f5c26b 55%, #d9a24a 100%);
+    background-size: 260% 100%;
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    animation: shimmer 4s linear infinite;
+  }
+  @keyframes shimmer { from { background-position: 130% 0; } to { background-position: -130% 0; } }
+  .sub {
+    color: #b0b8c5; font-size: 17px; letter-spacing: .01em;
+    display: flex; gap: 12px; align-items: center;
+  }
+  .sub i { width: 4px; height: 4px; border-radius: 50%; background: #f5c26b; opacity: .8; }
+  .meta { display: flex; gap: 24px; margin-top: 18px; font-size: 11.5px; letter-spacing: .2em; text-transform: uppercase; color: #7d889c; font-weight: 600; }
+  .meta b { color: #cfd6e4; font-weight: 600; }
+  .rule { width: 1px; height: 176px; background: linear-gradient(180deg, transparent, rgba(255,255,255,.2), transparent); }
+  .right { margin-left: auto; text-align: right; min-width: 300px; max-width: 360px; }
+  .count { font-family: "Poppins"; font-weight: 600; font-size: 54px; letter-spacing: -0.04em; line-height: 1.0; }
+  .count em { font-style: normal; color: #f5c26b; }
+  .count-label { margin-top: 12px; color: #8d98ab; font-size: 13px; line-height: 1.55; letter-spacing: .02em; }
+  .chips { display: flex; gap: 8px; justify-content: flex-end; margin-top: 22px; flex-wrap: wrap; }
+  .chip {
+    font-size: 11px; letter-spacing: .1em; text-transform: uppercase; font-weight: 600;
+    color: #cfd6e4; border: 1px solid rgba(255,255,255,.14); border-radius: 999px; padding: 5px 11px;
+    background: rgba(255,255,255,.03);
+  }
+</style>
+</head>
+<body>
+  <div class="glow"></div>
+  <div class="grid"></div>
+  <div class="content">
+    <div class="mark-wrap">
+      <div class="ring"></div>
+      <img src="assets/logo-mark-gold.png" alt="Arvion" />
+    </div>
+    <div class="words">
+      <div class="wordmark">Arvion <span>Technologies</span></div>
+      <h1><span class="line"><span>Product engineering</span></span><span class="line"><span>that <em>ships</em>.</span></span></h1>
+      <div class="sub"><span>Web platforms</span><i></i><span>mobile apps</span><i></i><span>cloud</span><i></i><span>AI</span></div>
+      <div class="meta"><span><b>Kathmandu</b>, Nepal</span><span>arviontech.net</span><span>MIT open source</span></div>
+    </div>
+    <div class="rule"></div>
+    <div class="right">
+      <div class="count">30<br /><em>projects</em></div>
+      <div class="count-label">open source, MIT licensed<br />every demo runs in your browser</div>
+    </div>
+  </div>
+</body>
+</html>
