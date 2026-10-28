@@ -12,9 +12,15 @@ design, backend and release.
 
 [![Website](https://img.shields.io/badge/arviontech.net-0b0f1a?style=for-the-badge&logo=googlechrome&logoColor=f5c26b)](https://arviontech.net)
 [![Email](https://img.shields.io/badge/hello@arviontech.net-0b0f1a?style=for-the-badge&logo=maildotru&logoColor=f5c26b)](mailto:hello@arviontech.net)
-[![Labs](https://img.shields.io/badge/32_open--source_projects-0b0f1a?style=for-the-badge&logo=github&logoColor=f5c26b)](https://arvion-technology.github.io/labs/)
+[![Labs](https://img.shields.io/badge/34_open--source_projects-0b0f1a?style=for-the-badge&logo=github&logoColor=f5c26b)](https://arvion-technology.github.io/labs/)
 
 </div>
+
+<p align="center">
+  <sub><b>Company profile:</b> <a href="https://arvion-technology.github.io/labs/assets/arvion-company-profile.pdf">PDF</a> ·
+  <a href="https://arvion-technology.github.io/labs/company.html">services and case studies</a> ·
+  <a href="https://arvion-technology.github.io/labs/brand.html">brand kit</a></sub>
+</p>
 
 ---
 
@@ -44,7 +50,7 @@ design, backend and release.
 
 ## Open-source labs
 
-Thirty-two runnable projects, each with tests, a live demo and an honest README. They are how we
+Thirty-four runnable projects, each with tests, a live demo and an honest README. They are how we
 work when nobody is watching. Every demo is static and runs in your browser — no
 sign-up, no API key. Full gallery: **[arvion-technology.github.io/labs](https://arvion-technology.github.io/labs/)**
 
@@ -77,8 +83,13 @@ sign-up, no API key. Full gallery: **[arvion-technology.github.io/labs](https://
 - **[Notewise](https://github.com/arvion-technology/notewise)** — block editor with slash commands, nesting and Markdown round-trip · [demo](https://arvion-technology.github.io/labs/demos/notewise/demo/)
 - **[Canvas](https://github.com/arvion-technology/whiteboard)** — infinite whiteboard with connectors, live cursors and PNG/SVG export · [demo](https://arvion-technology.github.io/labs/demos/whiteboard/demo/)
 
+### Commerce
+
+- **[Bazaar Store](https://github.com/arvion-technology/storefront)** — storefront and back office: catalogue, cart, promo codes, checkout, order states · [demo](https://arvion-technology.github.io/labs/demos/storefront/demo/)
+
 ### AI and data
 
+- **[Relay](https://github.com/arvion-technology/relay)** — AI support agent with cited answers, tool calls and human hand-off · [demo](https://arvion-technology.github.io/labs/demos/relay/demo/)
 - **[RAGForge](https://github.com/arvion-technology/ragforge)** — retrieval-augmented generation starter kit with BM25 retrieval and an eval harness that runs without an API key · [demo](https://arvion-technology.github.io/labs/demos/ragforge/demo/)
 - **[DocMind](https://github.com/arvion-technology/docmind)** — invoice and receipt extraction with confidence scoring and a review queue · [demo](https://arvion-technology.github.io/labs/demos/docmind/demo/)
 - **[LeadScout](https://github.com/arvion-technology/leadscout)** — researched outreach: crawl signals, explainable ICP score, cited drafts · [demo](https://arvion-technology.github.io/labs/demos/leadscout/demo/)
