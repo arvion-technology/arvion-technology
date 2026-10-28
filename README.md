@@ -114,6 +114,10 @@ sign-up, no API key. Full gallery: **[arvion-technology.github.io/labs](https://
 
 ## How we work
 
+We keep a dated [build log](https://arvion-technology.github.io/labs/build-log.html) and
+[engineering notes](https://github.com/arvion-technology/engineering-notes) next to the
+code — the decisions, the gotchas, and what we chose not to do.
+
 - **Tests before screenshots.** Every repository runs its own suite in CI on two
   versions of the runtime. If it is not tested, it does not go on the internet.
 - **Honest documentation.** Each README says what the code does, how the hard part
