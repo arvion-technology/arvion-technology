@@ -84,6 +84,10 @@ Written up with the problem, the build, the architecture and the decisions behin
 | Bazaar Store: commerce | Cart pricing and promos, stock reservation, payment adapters, order state machine | [read](https://arvion-technology.github.io/labs/case-storefront.html) |
 | Relay: AI support | Cited answers, tool calls, confidence threshold, human hand-off, evaluation harness | [read](https://arvion-technology.github.io/labs/case-relay.html) |
 | Notewise: documents | Block tree, slash commands, nesting, coalesced undo, Markdown round-trip | [read](https://arvion-technology.github.io/labs/case-notewise.html) |
+| Atlas Portal: Next.js | Server components, route handlers, typed data layer, static export | [read](https://arvion-technology.github.io/labs/case-atlas.html) |
+| Vantage: Vue 3 | Composition API stores, bulk changes with undo, audit diffs, CSV export | [read](https://arvion-technology.github.io/labs/case-vantage.html) |
+| Findr: Rust | Zero-crate parser, filters, percentiles, top-N and tail mode | [read](https://arvion-technology.github.io/labs/case-findr.html) |
+| Northwind: .NET | Typed minimal API, pagination, problem details, xUnit suite | [read](https://arvion-technology.github.io/labs/case-northwind.html) |
 
 [All work and case studies →](https://arvion-technology.github.io/labs/work.html)
 
