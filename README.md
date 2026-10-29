@@ -12,7 +12,7 @@ design, backend and release.
 
 [![Website](https://img.shields.io/badge/arviontech.net-0b0f1a?style=for-the-badge&logo=googlechrome&logoColor=f5c26b)](https://arviontech.net)
 [![Email](https://img.shields.io/badge/hello@arviontech.net-0b0f1a?style=for-the-badge&logo=maildotru&logoColor=f5c26b)](mailto:hello@arviontech.net)
-[![Labs](https://img.shields.io/badge/34_open--source_projects-0b0f1a?style=for-the-badge&logo=github&logoColor=f5c26b)](https://arvion-technology.github.io/labs/)
+[![Labs](https://img.shields.io/badge/42_open--source_projects-0b0f1a?style=for-the-badge&logo=github&logoColor=f5c26b)](https://arvion-technology.github.io/labs/)
 
 </div>
 
@@ -35,6 +35,21 @@ design, backend and release.
 | **Cloud and delivery** | AWS and GCP, Docker, Kubernetes, CI/CD, observability, cost control, runbooks. |
 | **Payments and integrations** | eSewa, Khalti, Stripe, Razorpay, SMS/OTP, KYC providers, ERP and CRM integrations. |
 | **AI features** | Retrieval over your own documents, document extraction, drafting and evaluation harnesses: with an honest fallback when the model is unavailable. |
+
+## Languages and stacks
+
+| Language | Projects |
+| --- | --- |
+| TypeScript / JavaScript | 31, across Next.js, React, Vue, NestJS and browser-only demos |
+| YAML / Docker / Helm | 3, compose-cookbook, k8s-blueprint, ci-templates |
+| Python | 1, ragforge |
+| Dart | 1, gharkosathi-app |
+| Rust | 1, findr |
+| Go | 1, gatekeeper |
+| C# / .NET | 1, northwind-api |
+| PHP | 1, ledgerbox |
+| Java | 1, tally-api |
+| HCL / Terraform | 1, aws-baseline |
 
 ## Products we run
 
@@ -74,7 +89,7 @@ Written up with the problem, the build, the architecture and the decisions behin
 
 ## Open-source labs
 
-Thirty-four runnable projects, each with tests, a live demo and an honest README. They are how we
+Forty-two runnable projects, each with tests, a live demo and an honest README. They are how we
 work when nobody is watching. Every demo is static and runs in your browser, no
 sign-up, no API key. Full gallery: **[arvion-technology.github.io/labs](https://arvion-technology.github.io/labs/)**
 
@@ -101,6 +116,9 @@ sign-up, no API key. Full gallery: **[arvion-technology.github.io/labs](https://
 - **[PeopleOps](https://github.com/arvion-technology/peopleops)**: onboarding checklists, leave accrual and approvals · [demo](https://arvion-technology.github.io/labs/demos/peopleops/demo/)
 - **[EventPass](https://github.com/arvion-technology/eventpass)**: ticketing with a QR encoder written from scratch · [demo](https://arvion-technology.github.io/labs/demos/eventpass/demo/)
 - **[SchoolKit](https://github.com/arvion-technology/schoolkit)**: attendance, fee ledger, exams and report cards · [demo](https://arvion-technology.github.io/labs/demos/schoolkit/demo/)
+- **[Atlas Portal](https://github.com/arvion-technology/atlas-portal)**: customer portal in Next.js 15 with React Server Components, invoices and tickets · [demo](https://arvion-technology.github.io/labs/demos/atlas-portal/demo/)
+- **[Helm Ops](https://github.com/arvion-technology/helm-ops)**: incident, deploy and on-call console in React 19 with a typed reducer · [demo](https://arvion-technology.github.io/labs/demos/helm-ops/demo/)
+- **[Vantage](https://github.com/arvion-technology/vantage)**: billing admin console in Vue 3 with bulk changes and an audit diff view · [demo](https://arvion-technology.github.io/labs/demos/vantage/demo/)
 
 ### Productivity and collaboration
 
@@ -110,6 +128,8 @@ sign-up, no API key. Full gallery: **[arvion-technology.github.io/labs](https://
 ### Commerce
 
 - **[Bazaar Store](https://github.com/arvion-technology/storefront)**: storefront and back office: catalogue, cart, promo codes, checkout, order states · [demo](https://arvion-technology.github.io/labs/demos/storefront/demo/)
+
+- **[Ledgerbox](https://github.com/arvion-technology/ledgerbox)**: invoicing and ledger in plain PHP 8 with SQLite, payments and aging · [demo](https://arvion-technology.github.io/labs/demos/ledgerbox/demo/)
 
 ### AI and data
 
@@ -128,10 +148,16 @@ sign-up, no API key. Full gallery: **[arvion-technology.github.io/labs](https://
 - **[EnvSafe](https://github.com/arvion-technology/envsafe)**: typed, validated environment configuration that fails at boot · [demo](https://arvion-technology.github.io/labs/demos/envsafe/demo/)
 - **[SearchLite](https://github.com/arvion-technology/searchlite)**: full-text search with BM25, stemming, fuzzy queries and facets · [demo](https://arvion-technology.github.io/labs/demos/searchlite/demo/)
 
+- **[Findr](https://github.com/arvion-technology/findr)**: log analysis CLI in Rust with filters, aggregations and percentiles · [demo](https://arvion-technology.github.io/labs/demos/findr/demo/)
+- **[Gatekeeper](https://github.com/arvion-technology/gatekeeper)**: rate limiting HTTP gateway in Go, standard library only · [demo](https://arvion-technology.github.io/labs/demos/gatekeeper/demo/)
+
 ### Backend and realtime
 
 - **[QueueKit](https://github.com/arvion-technology/queuekit)**: durable background jobs with backoff, concurrency limits and a dead-letter queue · [demo](https://arvion-technology.github.io/labs/demos/queuekit/demo/)
 - **[SocketChat](https://github.com/arvion-technology/socketchat)**: WebSocket chat server on node:http with no dependencies · [demo](https://arvion-technology.github.io/labs/demos/socketchat/demo/)
+
+- **[Northwind API](https://github.com/arvion-technology/northwind-api)**: typed minimal API in C# .NET 8 with xUnit tests and problem details · [demo](https://arvion-technology.github.io/labs/demos/northwind-api/demo/)
+- **[Tally](https://github.com/arvion-technology/tally-api)**: expense API on the JDK HTTP server, no framework and no build tool · [demo](https://arvion-technology.github.io/labs/demos/tally-api/demo/)
 
 ### Cloud and DevOps
 
